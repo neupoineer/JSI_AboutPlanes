@@ -1,0 +1,38 @@
+div.container {
+    display: grid;
+    grid-template-columns: 0.75fr;
+    grid-template-rows: auto 15px auto 15px auto 15px auto 15px auto 15px auto 15px auto;
+}
+
+div.menu {
+    grid-row: 1/2;
+}
+
+div.Lyrics {
+    grid-row: 5/6;
+}
+
+div.Wright_brothers {
+    grid-row: 9/10;
+}
+
+div.Aerodynamic_tube {
+    grid-row: 13/14;
+}
+
+div.From_pistons_to_turbojets {
+    grid-row: 17/18;
+}
+
+div.Work_principle {
+    grid-row: 21/22;
+
+}
+
+div.footer {
+    grid-row: 25/26;
+}
+
+/* p > img {
+    text-align: center;
+} */
