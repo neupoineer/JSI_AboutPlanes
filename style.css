@@ -31,10 +31,11 @@ p {
     text-align: justify;
 }
 
-.footer p:last-child {
+.frame {
     text-align: center;
 }
 
-ol {
+ol,
+ul {
     background-color: #f5dca2;
 }
