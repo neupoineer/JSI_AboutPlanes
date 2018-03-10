@@ -1,38 +1,35 @@
-div.container {
-    display: grid;
-    grid-template-columns: 0.75fr;
-    grid-template-rows: auto 15px auto 15px auto 15px auto 15px auto 15px auto 15px auto;
+body {
+    background-color: #f6eedb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div.menu {
-    grid-row: 1/2;
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f7ecd3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    border: 4px solid #b99a52;
 }
 
-div.Lyrics {
-    grid-row: 5/6;
-}
-
-div.Wright_brothers {
-    grid-row: 9/10;
-}
-
-div.Aerodynamic_tube {
-    grid-row: 13/14;
-}
-
-div.From_pistons_to_turbojets {
-    grid-row: 17/18;
-}
-
-div.Work_principle {
-    grid-row: 21/22;
-
-}
-
-div.footer {
-    grid-row: 25/26;
-}
-
-/* p > img {
+ .with_image {
     text-align: center;
-} */
+}
+
+h1 {
+    border-top: 3px solid #cca447;
+    border-bottom: 3px solid #cca447;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p {
+    text-align: justify;
+}
+
+.footer p:last-child {
+    text-align: center;
+}
