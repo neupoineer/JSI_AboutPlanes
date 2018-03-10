@@ -24,6 +24,7 @@ h1 {
     padding: 10px;
     text-align: center;
     vertical-align: middle;
+    background-color: #f4e3bb;
 }
 
 p {
@@ -32,4 +33,8 @@ p {
 
 .footer p:last-child {
     text-align: center;
+}
+
+ol {
+    background-color: #f5dca2;
 }
